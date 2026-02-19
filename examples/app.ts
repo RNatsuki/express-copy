@@ -10,7 +10,7 @@ import {
 const app = new Application();
 
 // Static files
-app.static("/static", "./public");
+app.static("/", "./public");
 
 // Global middleware
 app.use((req: Request, res: Response, next: NextFunction) => {

@@ -6,7 +6,7 @@
   "scripts": {
     "build": "tsc",
     "start": "node dist/examples/app.js",
-    "dev": "ts-node src/examples/app.ts",
+    "dev": "ts-node examples/app.ts",
     "example": "ts-node examples/app.ts"
   },
   "keywords": ["express", "typescript", "web-framework", "minimalist"],
