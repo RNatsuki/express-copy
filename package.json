@@ -1,0 +1,20 @@
+{
+  "name": "express-clone-ts",
+  "version": "1.0.0",
+  "description": "A minimalist Express.js clone in TypeScript to learn how web frameworks work",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/examples/app.js",
+    "dev": "ts-node src/examples/app.ts",
+    "example": "ts-node examples/app.ts"
+  },
+  "keywords": ["express", "typescript", "web-framework", "minimalist"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.0.0"
+  }
+}
