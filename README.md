@@ -34,12 +34,6 @@ npm run build
 npm run example
 ```
 
-Or for development:
-
-```bash
-npm run dev
-```
-
 ## Usage
 
 ```typescript
